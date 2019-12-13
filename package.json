@@ -1,0 +1,48 @@
+{
+  "name": "unless-overloaded",
+  "description": "Reject requests if we're currently processing too many",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepare": "npm run build",
+    "prepublishOnly": "npm t",
+    "test": "npm run lint && npm run test:unit",
+    "test:unit": "jest",
+    "build": "tsc",
+    "lint": "eslint 'lib/**/*.?s'",
+    "format": "prettier --write 'lib/**/*.?s' 'test/**/*.?s'"
+  },
+  "dependencies": {
+    "on-finished": "^2.3.0",
+    "prom-client": "^11.5.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "@types/jest": "^24.0.23",
+    "@types/needle": "^2.0.4",
+    "@types/node": "^12.12.17",
+    "@types/on-finished": "^2.3.1",
+    "@typescript-eslint/eslint-plugin": "^2.11.0",
+    "@typescript-eslint/parser": "^2.11.0",
+    "async-sema": "^3.0.1",
+    "eslint": "^6.7.2",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-jest": "^23.1.1",
+    "express": "^4.17.1",
+    "jest": "^24.9.0",
+    "needle": "^2.4.0",
+    "prettier": "^1.19.1",
+    "ts-jest": "^24.2.0",
+    "typescript": "^3.7.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snyk/unless-overloaded.git"
+  },
+  "author": "snyk.io",
+  "license": "MIT",
+  "types": "dist/index.d.ts",
+  "bugs": {
+    "url": "https://github.com/snyk/unless-overloaded/issues"
+  },
+  "homepage": "https://github.com/snyk/unless-overloaded#readme"
+}
