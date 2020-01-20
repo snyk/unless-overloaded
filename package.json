@@ -44,7 +44,7 @@
     "url": "git+https://github.com/snyk/unless-overloaded.git"
   },
   "author": "snyk.io",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "types": "dist/index.d.ts",
   "bugs": {
     "url": "https://github.com/snyk/unless-overloaded/issues"
