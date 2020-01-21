@@ -1,5 +1,5 @@
 {
-  "name": "unless-overloaded",
+  "name": "@snyk/unless-overloaded",
   "description": "Reject requests if we're currently processing too many",
   "main": "dist/index.js",
   "scripts": {
