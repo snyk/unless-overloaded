@@ -12,10 +12,9 @@
     "format": "prettier --write 'lib/**/*.?s' 'test/**/*.?s'"
   },
   "dependencies": {
+    "needle": "^2.4.0",
     "on-finished": "^2.3.0",
     "prom-client": "^11.5.3",
-    "request": "^2.88.0",
-    "request-promise-native": "^1.0.8",
     "sleep-promise": "^8.0.1"
   },
   "devDependencies": {
@@ -24,8 +23,6 @@
     "@types/needle": "^2.0.4",
     "@types/node": "^12.12.17",
     "@types/on-finished": "^2.3.1",
-    "@types/request": "^2.48.4",
-    "@types/request-promise-native": "^1.0.17",
     "@typescript-eslint/eslint-plugin": "^2.11.0",
     "@typescript-eslint/parser": "^2.11.0",
     "async-sema": "^3.0.1",
