@@ -8,10 +8,10 @@ We expect clients to eventually give up and just retry *without* the header, ski
 This implies your application should have other concurrency limiting or queuing in place, if
 appropriate. This might just be the node event loop.
 
-There's a wrapper for `request-promise-native` available in `requestWorkerRuns`. This
+There's a wrapper for `needle` available in `needleWorkerRuns`. This
 will attempt to locate a worker which isn't overloaded, and send the request to it.
 If the worker doesn't support this protocol, or a free worker cannot be found,
-then the request will be run anyway; the same as if `request` was used directly.
+then the request will be run anyway; the same as if `needle` was used directly.
 
 
 ## Example
