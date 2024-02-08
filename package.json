@@ -31,12 +31,12 @@
     "express": "^4.17.1",
     "jest": "^26.0.1",
     "prettier": "^1.19.1",
-    "prom-client": "^13.1.0",
+    "prom-client": "^15.1.0",
     "ts-jest": "^26.1.0",
     "typescript": "^3.7.3"
   },
   "peerDependencies": {
-    "prom-client": "12 || 13"
+    "prom-client": "15"
   },
   "repository": {
     "type": "git",
